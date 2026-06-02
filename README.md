@@ -12,6 +12,16 @@ A highly scalable, multi-role Enterprise Resource Planning (ERP) and Customer Re
 
 ## 🌟 Key System Architecture & Core Modules
 
+### 🔑 Test Portal Credentials
+To easily explore the system, you can use the following default credentials:
+* **Super Admin**: `super@college.com` / `123456`
+* **Admin**: `admin@college.com` / `123456`
+* **Teacher**: `mike@college.com` / `123456`
+* **Student**: `mustafashafi143@college.com` / `03363035621`
+* **Librarian**: `librarian@college.com` / `123456`
+* **CRM / Admissions**: `crm@college.com` / `123456`
+* **Parent**: `usman@college.com` / `03363035621`
+
 The application is structured into **6 specialized portals** connected to a centralized administrative back-office:
 
 ```mermaid
