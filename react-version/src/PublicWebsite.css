@@ -347,6 +347,64 @@ html {
     margin-bottom: 1.25rem;
 }
 
+/* --- Expanded Campus Life Highlights --- */
+.public-website-body .campus-highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+.public-website-body .campus-highlight-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.2rem;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+}
+.public-website-body .campus-highlight-card h3 {
+    color: var(--primary);
+    margin-bottom: 0.35rem;
+    font-size: 1.05rem;
+}
+.public-website-body .campus-highlight-card p {
+    color: var(--text-muted);
+    margin-bottom: 0;
+    line-height: 1.65;
+    font-size: 0.96rem;
+}
+.public-website-body .campus-spotlight {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 1.25rem;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+}
+.public-website-body .campus-spotlight h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+}
+.public-website-body .campus-event-item {
+    border-top: 1px solid var(--border);
+    padding-top: 0.9rem;
+    margin-top: 0.9rem;
+}
+.public-website-body .campus-event-item:first-of-type {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+.public-website-body .campus-event-item strong {
+    display: block;
+    color: var(--primary-dark);
+    margin-bottom: 0.2rem;
+}
+.public-website-body .campus-event-item p {
+    color: var(--text-muted);
+    margin-bottom: 0;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
 /* --- Inquiry Form --- */
 .public-website-body .inquiry-wrapper {
     background: var(--primary);
@@ -1463,6 +1521,81 @@ html {
 }
 
 /* Rich text content styles for info pages */
+.public-website-body .info-hero-card {
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.03), rgba(15, 23, 42, 0.08));
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 1.5rem;
+    margin-bottom: 1.75rem;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+}
+.public-website-body .info-hero-card .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.78rem;
+    color: var(--secondary);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+.public-website-body .info-hero-card h2 {
+    font-family: 'Merriweather', serif;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    font-size: 1.7rem;
+}
+.public-website-body .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.public-website-body .calendar-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.25rem;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+}
+.public-website-body .calendar-chip {
+    display: inline-block;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--secondary);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.public-website-body .calendar-card h3 {
+    color: var(--primary);
+    margin-bottom: 0.2rem;
+    font-size: 1.08rem;
+}
+.public-website-body .calendar-card strong {
+    display: inline-block;
+    color: var(--primary-dark);
+    margin-bottom: 0.35rem;
+}
+.public-website-body .calendar-card p {
+    color: var(--text-muted);
+    margin-bottom: 0;
+    font-size: 0.96rem;
+}
+.public-website-body .calendar-note {
+    margin-top: 1rem;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1rem 1.1rem;
+}
+.public-website-body .calendar-note h3 {
+    color: var(--primary);
+    margin-bottom: 0.35rem;
+    font-size: 1.05rem;
+}
+.public-website-body .calendar-note p {
+    color: var(--text-muted);
+    margin-bottom: 0;
+}
 .public-website-body .rich-text-content h2 {
     font-family: 'Merriweather', serif;
     color: var(--primary);

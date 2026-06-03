@@ -25,7 +25,17 @@ const PublicInfoPage = () => {
     <>
       <section className="page-header" style={{ padding: '5rem 0' }}>
         <div className="container">
-          <h1 data-aos="fade-up" style={{ marginBottom: 0 }}>{pageData.title}</h1>
+          {pageData.badge && (
+            <span className="badge" style={{ background: 'rgba(255,255,255,0.12)', color: 'white', border: '1px solid rgba(255,255,255,0.18)' }}>
+              {pageData.badge}
+            </span>
+          )}
+          <h1 data-aos="fade-up" style={{ marginBottom: '0.75rem' }}>{pageData.title}</h1>
+          {pageData.subtitle && (
+            <p data-aos="fade-up" data-aos-delay="100" style={{ color: '#cbd5e1', maxWidth: '760px', margin: 0 }}>
+              {pageData.subtitle}
+            </p>
+          )}
         </div>
       </section>
 
