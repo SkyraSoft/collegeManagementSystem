@@ -138,51 +138,7 @@ const PublicHome = () => {
         </div>
       </section>
 
-      {/* Articles Section */}
-      <section className="section-padding" id="articles">
-        <div className="container">
-          <div className="section-header" data-aos="fade-up">
-            <span className="badge">Skyra Insights</span>
-            <h2>Articles & Educational Resources</h2>
-            <p>Stay updated with the latest trends in technology, education, and career development from our expert faculty and students.</p>
-          </div>
-          <div className="program-grid">
-            <div className="program-card" data-aos="fade-up" data-aos-delay="100">
-              <div className="program-img">
-                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1470&auto=format&fit=crop" alt="AI in Education" />
-              </div>
-              <div className="program-body">
-                <span style={{ fontSize: '0.8rem', color: 'var(--primary)', fontWeight: 700, textTransform: 'uppercase' }}>Technology</span>
-                <h3 style={{ marginTop: '0.5rem' }}>The Future of AI in Higher Education</h3>
-                <p>Discover how artificial intelligence is transforming the way students learn and how Skyra Institute is integrating AI into its core curriculum.</p>
-                <a href="#" style={{ marginTop: '1.5rem', display: 'inline-block', fontWeight: 600, color: 'var(--primary)', textDecoration: 'none' }}>Read Full Article →</a>
-              </div>
-            </div>
-            <div className="program-card" data-aos="fade-up" data-aos-delay="200">
-              <div className="program-img">
-                <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=1374&auto=format&fit=crop" alt="Career Path" />
-              </div>
-              <div className="program-body">
-                <span style={{ fontSize: '0.8rem', color: 'var(--primary)', fontWeight: 700, textTransform: 'uppercase' }}>Career</span>
-                <h3 style={{ marginTop: '0.5rem' }}>How to Choose the Right Career Path in 2026</h3>
-                <p>Navigating the job market can be overwhelming. Our career experts share insights on emerging industries and how to align your passions.</p>
-                <a href="#" style={{ marginTop: '1.5rem', display: 'inline-block', fontWeight: 600, color: 'var(--primary)', textDecoration: 'none' }}>Read Full Article →</a>
-              </div>
-            </div>
-            <div className="program-card" data-aos="fade-up" data-aos-delay="300">
-              <div className="program-img">
-                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1471&auto=format&fit=crop" alt="Innovation Award" />
-              </div>
-              <div className="program-body">
-                <span style={{ fontSize: '0.8rem', color: 'var(--primary)', fontWeight: 700, textTransform: 'uppercase' }}>Campus News</span>
-                <h3 style={{ marginTop: '0.5rem' }}>Skyra Institute Wins National Innovation Award</h3>
-                <p>Recognized as the most innovative private institute of the year for our revolutionary research in sustainable energy.</p>
-                <a href="#" style={{ marginTop: '1.5rem', display: 'inline-block', fontWeight: 600, color: 'var(--primary)', textDecoration: 'none' }}>Read Full Article →</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Testimonials Section */}
       <section className="section-padding" style={{ background: 'var(--bg-subtle)' }}>

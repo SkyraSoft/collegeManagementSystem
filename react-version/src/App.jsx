@@ -93,6 +93,12 @@ import PublicEvents from './pages/PublicEvents';
 import PublicAdmission from './pages/PublicAdmission';
 import PublicContact from './pages/PublicContact';
 import PublicEventDetail from './pages/PublicEventDetail';
+import PublicAcademics from './pages/PublicAcademics';
+import PublicResearch from './pages/PublicResearch';
+import PublicCampusLife from './pages/PublicCampusLife';
+import PublicDepartment from './pages/PublicDepartment';
+import PublicInfoPage from './pages/PublicInfoPage';
+import PublicAdmissionInfo from './pages/PublicAdmissionInfo';
 
 
 import { adminNavigation, crmNavigation, studentNavigation, parentNavigation, librarianNavigation } from './config/navigation';
@@ -119,6 +125,12 @@ function App() {
           <Route path="/events/:id" element={<PublicEventDetail />} />
           <Route path="/admission" element={<PublicAdmission />} />
           <Route path="/contact" element={<PublicContact />} />
+          <Route path="/academics" element={<PublicAcademics />} />
+          <Route path="/academics/:id" element={<PublicDepartment />} />
+          <Route path="/research" element={<PublicResearch />} />
+          <Route path="/campus-life" element={<PublicCampusLife />} />
+          <Route path="/info/:id" element={<PublicInfoPage />} />
+          <Route path="/admissions/:id" element={<PublicAdmissionInfo />} />
         </Route>
 
         <Route path="/" element={<Login />} />
