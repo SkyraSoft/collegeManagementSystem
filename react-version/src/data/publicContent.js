@@ -204,10 +204,54 @@ export const infoPages = {
   },
   'title-ix': {
     title: 'Title IX Policy',
+    badge: 'Safety & Equality',
+    subtitle: 'Learn how Skyra Institute supports a respectful, safe, and inclusive campus environment for every student, faculty member, and visitor.',
     content: `
-      <h2>Commitment to Equality</h2>
-      <p>Skyra Institute of Technology does not discriminate on the basis of sex in its education programs and activities. We are committed to maintaining a safe and respectful campus environment.</p>
-      <p>To report a Title IX concern, please contact the Title IX Coordinator at titleix@skyra.edu.</p>
+      <div class="info-hero-card" data-aos="fade-up">
+        <p class="eyebrow">Campus safety</p>
+        <h2>Commitment to Equality</h2>
+        <p>Skyra Institute of Technology does not discriminate on the basis of sex in its education programs and activities. We are committed to maintaining a safe and respectful campus environment.</p>
+        <ul class="feature-list">
+          <li><i class="fas fa-check-circle"></i> Clear reporting pathways for concerns and complaints</li>
+          <li><i class="fas fa-check-circle"></i> Support for a respectful, inclusive learning environment</li>
+          <li><i class="fas fa-check-circle"></i> Guidance for students, staff, and campus partners</li>
+        </ul>
+      </div>
+
+      <div class="calendar-grid">
+        <article class="calendar-card" data-aos="fade-up">
+          <span class="calendar-chip">Policy</span>
+          <h3>Equal Opportunity</h3>
+          <strong>Fair treatment across all programs</strong>
+          <p>Skyra promotes a campus culture rooted in dignity, safety, and equal access.</p>
+        </article>
+
+        <article class="calendar-card" data-aos="fade-up" data-aos-delay="100">
+          <span class="calendar-chip">Support</span>
+          <h3>Response & Reporting</h3>
+          <strong>Dedicated Title IX coordination</strong>
+          <p>Concerns can be reported through the appropriate campus channels for review and support.</p>
+        </article>
+
+        <article class="calendar-card" data-aos="fade-up" data-aos-delay="150">
+          <span class="calendar-chip">Community</span>
+          <h3>Respectful Environment</h3>
+          <strong>Safe classrooms, offices, and events</strong>
+          <p>We work to maintain a community where everyone feels heard and protected.</p>
+        </article>
+
+        <article class="calendar-card" data-aos="fade-up" data-aos-delay="200">
+          <span class="calendar-chip">Contact</span>
+          <h3>Title IX Coordinator</h3>
+          <strong>titleix@skyra.edu</strong>
+          <p>Use this contact for reporting concerns or requesting information about available support.</p>
+        </article>
+      </div>
+
+      <div class="calendar-note" data-aos="fade-up">
+        <h3>Important</h3>
+        <p>To report a Title IX concern, please contact the Title IX Coordinator at titleix@skyra.edu.</p>
+      </div>
     `
   },
   'accessibility': {
