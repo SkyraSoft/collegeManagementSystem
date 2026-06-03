@@ -57,7 +57,7 @@ const PublicEventDetail = () => {
         style={{ backgroundImage: `url(${getEventImage(event)})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
         <div className="container">
-          <div className="badge" style={{ background: 'rgba(245, 158, 11, 0.2)', color: '#fbbf24', border: '1px solid rgba(245, 158, 11, 0.3)' }}>
+          <div className="badge" style={{ background: 'var(--primary-light)', color: 'var(--primary)', border: '1px solid var(--border)' }}>
             Upcoming Event
           </div>
           <h1 data-aos="fade-up">{event.title}</h1>

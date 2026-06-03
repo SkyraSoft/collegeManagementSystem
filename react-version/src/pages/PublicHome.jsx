@@ -26,7 +26,7 @@ const PublicHome = () => {
                 </div>
               </div>
               <div className="floating-card card-2">
-                <div className="program-icon" style={{ margin: 0, background: '#dcfce7', color: '#10b981' }}><i className="fas fa-rocket"></i></div>
+                <div className="program-icon" style={{ margin: 0 }}><i className="fas fa-rocket"></i></div>
                 <div>
                   <h4 style={{ fontSize: '1rem' }}>98% Placement</h4>
                   <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>In Fortune 500 Companies</p>
@@ -42,9 +42,9 @@ const PublicHome = () => {
         <div className="container">
           <div className="hero-grid" style={{ gridTemplateColumns: '0.9fr 1.1fr', gap: '6rem' }}>
             <div className="hero-visual" data-aos="fade-right">
-              <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1498&auto=format&fit=crop" alt="Campus Life" className="hero-main-img" style={{ transform: 'perspective(1000px) rotateY(5deg) rotateX(2deg)' }} />
+              <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1498&auto=format&fit=crop" alt="Campus Life" className="hero-main-img" />
               <div className="floating-card" style={{ bottom: '-20px', left: '-20px', background: 'var(--primary)', color: 'white' }}>
-                <div className="program-icon" style={{ background: 'rgba(255,255,255,0.2)', color: 'white' }}><i className="fas fa-quote-left"></i></div>
+                <div className="program-icon" style={{ background: 'rgba(255,255,255,0.1)', color: 'white', border: 'none' }}><i className="fas fa-quote-left"></i></div>
                 <p style={{ fontSize: '0.9rem', fontStyle: 'italic' }}>"Excellence is not a skill, it's an attitude."</p>
               </div>
             </div>
@@ -117,7 +117,7 @@ const PublicHome = () => {
                 <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1471&auto=format&fit=crop" alt="Business" />
               </div>
               <div className="program-body">
-                <div className="program-icon" style={{ background: '#fef3c7', color: '#d97706' }}><i className="fas fa-briefcase"></i></div>
+                <div className="program-icon"><i className="fas fa-briefcase"></i></div>
                 <h3>Global Business Management</h3>
                 <p>Master leadership, finance, and entrepreneurship in an increasingly connected world.</p>
                 <a href="/admission" style={{ marginTop: '1.5rem', display: 'inline-block', fontWeight: 600, color: 'var(--primary)', textDecoration: 'none' }}>Apply Now →</a>
@@ -128,7 +128,7 @@ const PublicHome = () => {
                 <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1470&auto=format&fit=crop" alt="Engineering" />
               </div>
               <div className="program-body">
-                <div className="program-icon" style={{ background: '#fce7f3', color: '#db2777' }}><i className="fas fa-tools"></i></div>
+                <div className="program-icon"><i className="fas fa-tools"></i></div>
                 <h3>Advanced Engineering</h3>
                 <p>From robotics to sustainable energy, build solutions for the world's greatest challenges.</p>
                 <a href="/admission" style={{ marginTop: '1.5rem', display: 'inline-block', fontWeight: 600, color: 'var(--primary)', textDecoration: 'none' }}>Apply Now →</a>
@@ -243,15 +243,15 @@ const PublicHome = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding" style={{ background: 'linear-gradient(135deg, var(--primary), var(--secondary))', color: 'white', borderRadius: '48px', margin: '4rem 2rem' }}>
+      <section className="section-padding" style={{ background: 'var(--primary-dark)', color: 'white', borderRadius: '4px', margin: '4rem 2rem' }}>
         <div className="container" style={{ textAlign: 'center' }}>
           <h2 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', color: 'white' }} data-aos="fade-up">Ready to Start Your Journey?</h2>
           <p style={{ fontSize: '1.25rem', opacity: 0.9, maxWidth: '700px', margin: '0 auto 2.5rem' }} data-aos="fade-up" data-aos-delay="100">
             Join Skyra Institute and build your future with world-class education and industry-leading experts.
           </p>
           <div className="cta-actions" data-aos="fade-up" data-aos-delay="200">
-            <a href="/admission" className="btn" style={{ background: 'white', color: 'var(--primary)', padding: '1rem 2.5rem' }}>Apply Now <i className="fas fa-arrow-right" style={{ marginLeft: '0.5rem' }}></i></a>
-            <a href="/contact" className="btn" style={{ background: 'rgba(255,255,255,0.1)', color: 'white', border: '1px solid rgba(255,255,255,0.3)', padding: '1rem 2.5rem', marginLeft: '1rem' }}>Contact Us</a>
+            <a href="/admission" className="btn" style={{ background: 'white', color: 'var(--primary)', padding: '1rem 2.5rem', borderRadius: '4px' }}>Apply Now <i className="fas fa-arrow-right" style={{ marginLeft: '0.5rem' }}></i></a>
+            <a href="/contact" className="btn" style={{ background: 'transparent', color: 'white', border: '1px solid rgba(255,255,255,0.3)', padding: '1rem 2.5rem', marginLeft: '1rem', borderRadius: '4px' }}>Contact Us</a>
           </div>
         </div>
       </section>
