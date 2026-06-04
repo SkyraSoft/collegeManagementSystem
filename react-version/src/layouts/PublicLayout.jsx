@@ -112,6 +112,7 @@ const PublicLayout = () => {
               </li>
 
               <li><Link to="/research">Research</Link></li>
+              <li><Link to="/events">Events</Link></li>
               <li><Link to="/campus-life">Campus Life</Link></li>
               <li><Link to="/about">About</Link></li>
             </ul>
